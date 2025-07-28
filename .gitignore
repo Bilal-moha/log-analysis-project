@@ -1,0 +1,18 @@
+# Ignore system logs
+# Ignore all files in logs except README.md
+logs/*
+!logs/README.md
+
+# Ignore temp files
+*.swp
+*.tmp
+*.log
+
+# Ignore Python cache if you write scripts later
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
